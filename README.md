@@ -85,14 +85,14 @@ drive.mount('/content/drive')
 ```
 Clone o repositório:
 ```bash
-!git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/JoaoTeles87/Score_Risco_Praso.git
 ```
 Após fazer alterações no Colab, envie as atualizações de volta para o GitHub:
 
 ```bash
-!git add .
-!git commit -m "Atualização do modelo de score"
-!git push origin main
+git add .
+git commit -m "Atualização do modelo de score"
+git push origin main
 ```
 
 ## ⚖️ Licença
